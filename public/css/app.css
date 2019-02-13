@@ -1,5 +1,37 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
+.found{
+    display: inline-block; 
+    width: 100%;
+    text-align: center;
+    border-radius: 5px; 
+    border: 2px solid; 
+    border-color: #d9d9d9; 
+    font-family: tahoma; 
+    color: #4f4f4f; 
+    background: #dddddd; 
+    transition: background 0.2s, color 0.2s;
+    margin: 5px; 
+    padding: 5px 30px; 
+    word-wrap: break-word; 
+    text-shadow: -1px 0 #cccccc, 0 1px #cccccc, 1px 0 #cccccc, 0 -1px #cccccc;
+}
+.record{
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px; 
+    border: 2px solid; 
+    border-color: #d9d9d9; 
+    font-family: tahoma; 
+    color: #4f4f4f; 
+    background: #dddddd; 
+    transition: background 0.2s, color 0.2s;
+    margin: 5px; 
+    padding: 5px 30px; 
+    word-wrap: break-word; 
+    text-shadow: -1px 0 #cccccc, 0 1px #cccccc, 1px 0 #cccccc, 0 -1px #cccccc;
+}
+
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
