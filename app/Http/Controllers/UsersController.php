@@ -17,12 +17,12 @@ class UsersController extends Controller
             $users->where('name', 'like', "%$request->name%");
         }
 
-        if($request->has('is_active')){
+        if(($request->has('is_active')) && ($request->is_active > 0)){
 
             $users->where('is_active', $request->is_active);
         }
 
-        if($request->has('gender')){
+        if(($request->has('gender')) && ($request->gender > 0)){
 
             $users->where('gender', $request->gender);
         }
